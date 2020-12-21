@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a822c22-4e94-4d05-8e8b-b6a73d27bddd" name="Default Changelist" comment="" />
+    <list default="true" id="1a822c22-4e94-4d05-8e8b-b6a73d27bddd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lxpVv5OEOnQJag6TvQ5XJ4lAWG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -21,6 +28,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -36,7 +44,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608548624882</updated>
-      <workItem from="1608548626274" duration="4397000" />
+      <workItem from="1608548626274" duration="5112000" />
+      <workItem from="1608560627662" duration="400000" />
     </task>
     <servers />
   </component>
@@ -48,5 +57,21 @@
       <screen x="39" y="23" width="1881" height="1177" />
     </state>
     <state x="712" y="234" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/39.23.1881.1177@39.23.1881.1177" timestamp="1608557086582" />
+    <state x="633" y="320" width="660" height="269" key="Github.ShareDialog" timestamp="1608558963324">
+      <screen x="39" y="23" width="1881" height="1177" />
+    </state>
+    <state x="633" y="320" width="660" height="269" key="Github.ShareDialog/39.23.1881.1177@39.23.1881.1177" timestamp="1608558963324" />
+    <state x="747" y="192" key="Github.UntrackedFilesDialog" timestamp="1608558540134">
+      <screen x="39" y="23" width="1881" height="1177" />
+    </state>
+    <state x="747" y="192" key="Github.UntrackedFilesDialog/39.23.1881.1177@39.23.1881.1177" timestamp="1608558540134" />
+    <state x="417" y="119" key="SettingsEditor" timestamp="1608558943067">
+      <screen x="39" y="23" width="1881" height="1177" />
+    </state>
+    <state x="417" y="119" key="SettingsEditor/39.23.1881.1177@39.23.1881.1177" timestamp="1608558943067" />
+    <state x="574" y="220" key="Vcs.Push.Dialog.v2" timestamp="1608559065045">
+      <screen x="39" y="23" width="1881" height="1177" />
+    </state>
+    <state x="574" y="220" key="Vcs.Push.Dialog.v2/39.23.1881.1177@39.23.1881.1177" timestamp="1608559065045" />
   </component>
 </project>
