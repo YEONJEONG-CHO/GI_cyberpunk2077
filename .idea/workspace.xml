@@ -1,8 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a822c22-4e94-4d05-8e8b-b6a73d27bddd" name="Default Changelist" comment="">
+    <list default="true" id="1a822c22-4e94-4d05-8e8b-b6a73d27bddd" name="Default Changelist" comment="animation">
+      <change afterPath="$PROJECT_DIR$/img/2-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/2-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/2-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/4-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/4-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/4-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/4-4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/3-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/3-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/3-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/3-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/8.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,18 +84,41 @@
       <option name="presentableId" value="Default" />
       <updated>1608548624882</updated>
       <workItem from="1608548626274" duration="5112000" />
-      <workItem from="1608560627662" duration="400000" />
+      <workItem from="1608560627662" duration="1058000" />
     </task>
+    <task id="LOCAL-00001" summary="animation">
+      <created>1608561058393</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608561058393</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="animation" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="712" y="234" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608557086582">
+    <state x="712" y="234" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608561803743">
       <screen x="39" y="23" width="1881" height="1177" />
     </state>
-    <state x="712" y="234" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/39.23.1881.1177@39.23.1881.1177" timestamp="1608557086582" />
+    <state x="712" y="234" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/39.23.1881.1177@39.23.1881.1177" timestamp="1608561803743" />
     <state x="633" y="320" width="660" height="269" key="Github.ShareDialog" timestamp="1608558963324">
       <screen x="39" y="23" width="1881" height="1177" />
     </state>
@@ -69,9 +131,9 @@
       <screen x="39" y="23" width="1881" height="1177" />
     </state>
     <state x="417" y="119" key="SettingsEditor/39.23.1881.1177@39.23.1881.1177" timestamp="1608558943067" />
-    <state x="574" y="220" key="Vcs.Push.Dialog.v2" timestamp="1608559065045">
+    <state x="574" y="220" key="Vcs.Push.Dialog.v2" timestamp="1608561064401">
       <screen x="39" y="23" width="1881" height="1177" />
     </state>
-    <state x="574" y="220" key="Vcs.Push.Dialog.v2/39.23.1881.1177@39.23.1881.1177" timestamp="1608559065045" />
+    <state x="574" y="220" key="Vcs.Push.Dialog.v2/39.23.1881.1177@39.23.1881.1177" timestamp="1608561064401" />
   </component>
 </project>
