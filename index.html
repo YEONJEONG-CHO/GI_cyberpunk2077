@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CYBERPUNK 2077</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"/>
+    <style>
+        html, body {
+            background: #000;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+        }
+
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .img-parallax {
+            width: 120%;
+            z-index: 10;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            pointer-events: none
+        }
+
+        .hero-logo {
+            position: absolute;
+            z-index: 20;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        @-webkit-keyframes blinker {
+            from {opacity: 1.0;}
+            to {opacity: 0.0;}
+        }
+        .blink{
+            text-decoration: blink;
+            -webkit-animation-name: blinker;
+            -webkit-animation-duration: 0.25s;
+            -webkit-animation-iteration-count:infinite;
+            -webkit-animation-timing-function:ease-in-out;
+            -webkit-animation-direction: alternate;
+        }
+
+        .hero-btn {
+            position: absolute;
+            z-index: 20;
+            bottom: 25px;
+            left: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+
+    </header>
+
+    <div class="hero">
+        <img data-speed="1.8" class="img-parallax" src="./img/main-back.jpg" alt="">
+        <div class="hero-logo">
+            <img src="./img/logo.png" alt="">
+        </div>
+        <div class="hero-btn blink">
+            <img src="./img/start.png" alt="">
+        </div>
+    </div>
+    <div class="inner">
+        <div id="">
+            <img src="./img/1.jpg" alt="">
+        </div>
+        <div id="">
+            <img src="./img/2.jpg" alt="">
+            <img src="./img/3.jpg" alt="">
+            <img src="./img/4.jpg" alt="">
+            <img src="./img/5.jpg" alt="">
+        </div>
+        <div id="">
+            <img src="./img/3-1.jpg" alt="">
+            <img src="./img/3-2.jpg" alt="">
+            <img src="./img/3-3.jpg" alt="">
+            <img src="./img/3-4.jpg" alt="">
+        </div>
+        <div id="">
+            <img src="./img/8.jpg" alt="">
+            <img src="./img/9.jpg" alt="">
+            <img src="./img/10.jpg" alt="">
+            <img src="./img/11.jpg" alt="">
+            <img src="./img/12.jpg" alt="">
+        </div>
+        <div id="">
+            <img src="./img/13.jpg" alt="">
+            <img src="./img/14.jpg" alt="">
+        </div>
+        <div id="">
+            <img src="./img/15.jpg" alt="">
+            <img src="./img/16.jpg" alt="">
+            <img src="./img/17.jpg" alt="">
+            <img src="./img/18.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+<script>
+
+    $('.img-parallax').each(function () {
+        var img = $(this);
+        var imgParent = $(this).parent();
+
+        function parallaxImg() {
+            var speed = img.data('speed');
+            var imgY = imgParent.offset().top;
+            var winY = $(this).scrollTop();
+            var winH = $(this).height();
+            var parentH = imgParent.innerHeight();
+
+
+            // The next pixel to show on screen
+            var winBottom = winY + winH;
+
+            // If block is shown on screen
+            if (winBottom > imgY && winY < imgY + parentH) {
+                // Number of pixels shown after block appear
+                var imgBottom = ((winBottom - imgY) * speed);
+                // Max number of pixels until block disappear
+                var imgTop = winH + parentH;
+                // Porcentage between start showing until disappearing
+                var imgPercent = ((imgBottom / imgTop) * 100) + (50 - (speed * 50));
+            }
+            img.css({
+                top: imgPercent + '%',
+                transform: 'translate(-50%, -' + imgPercent + '%)'
+            });
+        }
+
+        $(document).on({
+            scroll: function () {
+                parallaxImg();
+            }, ready: function () {
+                parallaxImg();
+            }
+        });
+    });
+</script>
+</body>
+</html>
